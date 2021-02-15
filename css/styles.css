@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
 @import "reset.css";
 @import "variables.css";
 /* components */
@@ -6,9 +7,16 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/hashtag-header.css";
+@import "components/alt-screen-header.css";
+@import "components/no_mobile.css";
 /* screen */
 @import "screen/login-page.css";
 @import "screen/friends.css";
+@import "screen/chat-screen.css";
+@import "screen/hash-news.css";
+@import "screen/more.css";
+@import "screen/setting.css";
 
 body {
   font-family: "Open Sans", sans-serif;

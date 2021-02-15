@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>kokoa Talk</title>
+</head>
+<body>
+    <div id= "status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:00</span>
+        </div>
+        <div class ="status-bar__column">
+            <span>49%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+        </div>
+    </div>
+    
+    <header class="screen-header">
+        <span class="screen-header__title">More</span>
+        <div class="screen-header__icons">
+            <i class="fas fa-search fa-lg"></i>
+            <i class="fas fa-music fa-lg"></i>
+            <a class="setting-icon" href="6. setting.html">
+                <i class="fas fa-cog fa-lg"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__img user-component__img-xl" src="pictures/rabbit.png">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Soyoon</h4>
+                    <h6 class="user-component__subtitle">+82 10-1234-5678 <i class="fas fa-exclamation-circle"></i></h6>
+                </div>
+            </div>
+            <div class="qrcode-checkin">
+                <i class="fas fa-qrcode"></i>
+                <span>QR check-in</span>
+            </div>
+        </div>
+        <div class="pay-bar">
+            <div class="pay-money">
+                <i class="fas fa-comment"></i>
+                <span>PAY</span>
+                <span>49000won</span>
+            </div>
+            <div class="pay-menu-box">
+                <span class="pay-menu">Remittance</span>
+                <span class="pay-menu">Payment</span>
+                <span class="pay-menu">property</span>
+            </div>
+        </div>
+        <div class="icons-box">
+            <div class="icons-column">
+                <a class="icons-box__icon" href="#">
+                    <i class="far fa-envelope fa-2x"></i>
+                    <span class="icons-box__icon-text">mail</span>
+                </a>
+                <a class="icons-box__icon" href="#">
+                    <i class="far fa-calendar-check fa-2x"></i>
+                    <span class="icons-box__icon-text">calendar</span>
+                </a>
+            </div>
+            <div class="icons-column">
+                <a class="icons-box__icon" href="#">
+                    <i class="far fa-kiss-wink-heart fa-2x"></i>
+                    <span class="icons-box__icon-text">emoticon</span>
+                </a>
+                <a class="icons-box__icon" href="#">
+                    <i class="fas fa-gift fa-2x"></i>
+                    <span class="icons-box__icon-text">gift</span>
+                </a>
+            </div>
+            <div class="icons-column">
+                <a class="icons-box__icon" href="#">
+                    <i class="fas fa-store fa-2x"></i>
+                    <span class="icons-box__icon-text">shopping</span>
+                </a>
+                <a class="icons-box__icon" href="#">
+                    <i class="fas fa-gamepad fa-2x"></i>
+                    <span class="icons-box__icon-text">game</span>
+                </a>
+            </div>
+            <div class="icons-column">
+                <a class="icons-box__icon" href="#">
+                    <i class="fas fa-utensils fa-2x"></i>
+                    <span class="icons-box__icon-text">food deliver</span>
+                </a>
+                <a class="icons-box__icon" href="#">
+                    <i class="fas fa-th-large fa-2x"></i>
+                    <span class="icons-box__icon-text">entire service</span>
+                </a>
+            </div>
+        </div>
+        <a class="weather" href="https://www.google.com/search?q=%EB%82%A0%EC%94%A8&oq=%EB%82%A0%EC%94%A8&aqs=chrome..69i57j69i59j69i61j69i60.956j0j1&sourceid=chrome&ie=UTF-8">
+            <div class="now-weather">
+                <div class="weather__box-now">
+                    <div>
+                        <span>Gangnam Garosu-gil</span>
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <div class="weather__icon-now">
+                        <img src="pictures/cloudy.png">
+                        <span>-2°</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tomorrow-weather">
+                <div class="weather__box-tomorrow">
+                    <span>tomorrow AM</span>
+                    <div class="weather__icon-tomorrow">
+                        <img src="pictures/rain.png">
+                        <span class="weather__temp">-6°</span>
+                    </div>
+                </div>
+                <div class="weather__box-tomorrow">
+                    <span>tomorrow PM</span>
+                    <div class="weather__icon-tomorrow">
+                        <img src="pictures/rain.png">
+                        <span class="weather__temp">-6°</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </main>
+    
+
+    <nav class ="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class= "nav__link" href="2. friends.html"><i class="far fa-user fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="3. chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="4-1. hash-news.html"><i class="fas fa-hashtag fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="5. more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+      </div>
+    <script src="https://kit.fontawesome.com/14b508fef4.js" crossorigin="anonymous"></script>
+</body>
+</html>

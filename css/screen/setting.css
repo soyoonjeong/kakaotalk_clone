@@ -1,0 +1,39 @@
+.main-icon {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 25px;
+}
+.icon__box {
+  padding: 18px var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.icon__column {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+.icon__text {
+  font-size: 20px;
+  position: absolute;
+  left: 70px;
+  width: 200px;
+}
+.icon__secondtext {
+  font-size: 20px;
+  opacity: 0.6;
+}
+.icon__notification {
+  display: flex;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 150px;
+}

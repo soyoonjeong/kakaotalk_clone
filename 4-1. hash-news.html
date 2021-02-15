@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>kokoa Talk</title>
+</head>
+<body>
+    <div id= "status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:00</span>
+        </div>
+        <div class ="status-bar__column">
+            <span>49%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+        </div>
+    </div>
+    
+    <div class="hashtag-header">
+        <span class="hashtag-header__link">#COVID-19</span>
+        <span class="hashtag-header__link">#NEWS</span>
+        <span class="hashtag-header__link">#BOOK</span>
+        <span class="hashtag-header__link">#MUSIC</span>
+    </div>
+
+    <main class="news-screen">
+      <div class="news__corona">
+          <a class="news__corona-link" href="#">
+              <span>COVID-19 Confirmed patient 83,869</span>
+              <div class="news__corona-up">
+                <i class="fas fa-caret-up"></i>
+                <span>344</span>
+              </div>
+              <span class="news__corona-time">February 15 at 20:00</span>
+          </a>
+          <div class="qrcode-checkin">
+            <i class="fas fa-qrcode"></i>
+            <span>QR check-in</span>
+        </div>
+      </div>
+      <div class="news__photo">
+          <div class="news__photo-column">
+              <img class="news__photo-img" src = "data:image/png;base64,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">
+              <span class="news__photo-text">nomad coder student said "it's great chance to study with nico teacher</span>
+          </div>
+          <div class="news__photo-column">
+            <img class="news__photo-img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzpT4Xi-RmRc8Y5pMiGO-8USZhgQ9OFfTeDw&usqp=CAU">
+            <span class="news__photo-text">kimchi zzang! Kimchi is korean food! Don't take our food!</span>
+        </div>
+        </div>
+        <div class="news__photo">
+                <div class="news__photo-column">
+                    <img class="news__photo-img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87NmyU1HC-zkbWuJWc55r_wWW-cG2bk1vLQ&usqp=CAU">
+                    <span class="news__photo-text">i finally graduate this challenge. i am so happy:)</span>
+                </div>
+                <div class="news__photo-column">
+                <img class="news__photo-img" src = "pictures/python.PNG">
+                <span class="news__photo-text">i will do python course. study hard</span>
+            </div>
+        </div>
+        <div class="news__list">
+            <a class="news__list-link" href="#">Actually i deleted this html file </a>
+            <a class="news__list-link" href="#">so i am coding this again</a>
+            <a class="news__list-link" href="#">i almost cried</a>
+        </div>
+    </main>
+    
+    
+    <nav class ="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class= "nav__link" href="2. friends.html"><i class="far fa-user fa-lg"></i></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="3. chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="4-1. hash-news.html"><i class="fas fa-hashtag fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="5. more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ </span>
+      </div>
+    <script src="https://kit.fontawesome.com/14b508fef4.js" crossorigin="anonymous"></script>
+</body>
+</html>

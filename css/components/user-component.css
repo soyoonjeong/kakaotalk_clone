@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.chats-screen .user-component {
+  text-decoration: none;
+  color: #2e363e;
+}
 .user-component__img {
   width: 70px;
   height: 70px;
@@ -30,4 +34,21 @@
 .user-component__column:last-child {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__notification {
+  display: flex;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  margin-top: 5px;
+}
+.user-component__time {
+  font-weight: 400;
 }

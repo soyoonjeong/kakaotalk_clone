@@ -1,0 +1,113 @@
+.user-component__subtitle i {
+  color: tomato;
+  opacity: 0.7;
+}
+.qrcode-checkin {
+  color: #2e363e;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: var(--horizontal-space);
+}
+
+.pay-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0px var(--horizontal-space);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pay-money {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 8px;
+}
+.pay-money span:first-child {
+  font-weight: 700;
+}
+.pay-menu-box {
+  display: flex;
+}
+.pay-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+}
+.pay-menu:nth-child(2) {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  border-bottom: none;
+}
+.icons-box {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+}
+.icons-box__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #2e363e;
+  align-items: center;
+}
+.icons-box__icon:nth-child(odd) {
+  margin-bottom: 35px;
+}
+.icons-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icons-box__icon span {
+  margin-top: 7px;
+}
+.weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px var(--horizontal-space);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: var(--horizontal-space) 0px;
+  text-decoration: none;
+  color: #2e363e;
+}
+.tomorrow-weather {
+  display: flex;
+  justify-content: center;
+}
+.weather__box-now span,
+.weather__box-tomorrow span {
+  font-weight: 600;
+}
+.weather__icon-tomorrow,
+.weather__icon-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.weather__box-tomorrow {
+  margin-left: 10px;
+}
+.weather__icon-tomorrow img {
+  width: 50px;
+  height: 30px;
+  margin-right: 5px;
+}
+.weather__icon-tomorrow span {
+  font-size: 20px;
+}
+.weather__icon-now img {
+  width: 80px;
+  height: 50px;
+  margin-right: 5px;
+}
+.weather__icon-now span {
+  font-size: 30px;
+}
