@@ -4,9 +4,10 @@
   align-items: center;
   padding: 15px var(--horizontal-space);
   position: fixed;
+  top: 26px;
   width: 100%;
   box-sizing: border-box;
-  top: 25px;
+  background-color: white;
 }
 .alt-screen-header__component {
   width: 33%;

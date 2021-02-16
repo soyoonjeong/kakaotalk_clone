@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  position: fixed;
+  top: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: white;
 }
 .hashtag-header__link {
   text-decoration: none;
@@ -9,9 +15,4 @@
   opacity: 0.5;
   font-weight: bold;
   font-size: 25px;
-}
-.hashtag-header__icons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }

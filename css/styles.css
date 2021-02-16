@@ -13,6 +13,7 @@
 /* screen */
 @import "screen/login-page.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
 @import "screen/chat-screen.css";
 @import "screen/hash-news.css";
 @import "screen/more.css";
@@ -20,4 +21,5 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 150vh;
 }

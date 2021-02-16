@@ -7,8 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-top: 1px solid rgba(0, 0, 0, 0.4);
-  margin: 5px 0px;
+  margin: 86px 0px;
 }
 .news__corona {
   display: flex;
