@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>kokoa Talk</title>
+</head>
+<body>
+    <div id= "status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:00</span>
+        </div>
+        <div class ="status-bar__column">
+            <span>49%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+        </div>
+    </div>
+    
+    <div class="hashtag-header">
+        <span class="hashtag-header__link">#COVID-19</span>
+        <span class="hashtag-header__link">#NEWS</span>
+        <span class="hashtag-header__link">#BOOK</span>
+        <span class="hashtag-header__link">#MUSIC</span>
+    </div>
+
+    <main class="book-screen">
+        <span class="title">Book of the day</span>
+        <div id="main-book">
+          <img class= "main-book__img" src = "pictures/book1.jpg"/>
+            <div class="main-book__profile">
+              <span class="main-book__booktitle">보건교사 안은영</span>
+              <span class="main-book__author">정세랑</span>
+              <div class="main-book__star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <form class = "main-book__btn">
+                  <input class="main-book__btn__input" type="button" value ="Journey">
+                  <input class="main-book__btn__input" type="button" value ="Biography">
+              </form>
+              <form class = "main-book__btn2">
+                  <div class="main-book__btn2__bookmark">
+                      <i class="fas fa-bookmark"></i>
+                  </div>
+                <input class="main-book__btn2__input" type="button" value ="Book Now">
+            </form>
+            </div>
+            
+        </div>
+  
+        <span class="title">Top Novel</span>
+        <div id="top-novel">
+            <section class= "top-novel__box">
+                <img class="top-novel__box__img" src="pictures/book2.jpg"/>
+                <section class="top-novel__box__star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </section>
+              </section>
+              
+            <section class= "top-novel__box">
+              <img class="top-novel__box__img" src="pictures/book3.jpg"/>
+              <section class="top-novel__box__star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </section>
+            </section>
+            
+            <section class= "top-novel__box">
+              <img class="top-novel__box__img" src="pictures/book5.jpg"/>
+              <section class="top-novel__box__star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </section>
+            </section>
+        </div>
+        
+        <span class ="title">Popular authors</span>
+        <div id = "author">
+            <img class= "author__img" src = "pictures/author.jpg"/>
+            <div class ="author__text">
+              <span class="author__text__name">Keigo Higashino</span>
+              <p class="author__text__text">Japanese author chiefly known for his mystery novels. He served as the 13th President of Mystery Writers of Japan from 2009 to 2013. </p>
+            </div>
+        </div>
+    </main>
+    
+    
+    <nav class ="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class= "nav__link" href="2. friends.html"><i class="far fa-user fa-lg"></i></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="3. chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="4-1. hash-news.html"><i class="fas fa-hashtag fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class= "nav__link" href="5. more.html">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ </span>
+      </div>
+    <script src="https://kit.fontawesome.com/14b508fef4.js" crossorigin="anonymous"></script>
+</body>
+</html>
